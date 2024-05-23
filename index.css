@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FAFAF9;
+}
+
+article {
+    width: 368px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+img {
+    width: 336px;
+    height: 152px;
+    border-radius: 15px;
+    margin: 16px;
+}
+
+span {
+    background-color: #E6D6FC;
+    border-radius: 30px;
+    padding: 6px 16px;
+    color: #883AE1;
+    font-weight: 600;
+    margin: 0 0 16px 16px;
+}
+
+h1 {
+    font-size: 1.125rem;
+    margin: 16px 16px 6px 16px;
+}
+
+.description {
+    margin: 0 16px 20px 16px;
+    color: #6C727F;
+}
+
+.author {
+    margin-right: 16px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
